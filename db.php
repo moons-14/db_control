@@ -88,7 +88,7 @@ function db_control($request_sql,$db_host,$db_name,$db_user,$db_pass){
 
 
     }catch(PDOException $e){
-        return 500;
+        return "500".$e->getMessage();
         die();
     }
     $dbh = null;
