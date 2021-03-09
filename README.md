@@ -33,7 +33,7 @@ $request_sql=[
             //...
     ]
 ];
-
+```
 ### データを更新する場合
 ```php
 $request_sql=[
